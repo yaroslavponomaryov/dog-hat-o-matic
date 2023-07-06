@@ -1,0 +1,55 @@
+.img {
+    max-width: 30%;
+    max-height: 30%;
+    height: auto;
+    width: auto;
+    display: flexbox;
+    flex:auto;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-rows: auto, auto, auto;
+    grid-template-columns: auto;
+    align-items: center;
+}
+
+.img-area {
+    display: grid;
+    grid-template-rows: auto auto;
+    align-items: center;
+
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.header {
+
+    text-align: center;
+
+}
+
+.button {
+    color: white;
+    background-color: blue;
+    border: 2px dashed grey;
+    border-radius: 8px;
+    margin: 30px;
+    width: 30%;
+}
+
+.button:hover {
+    background-color: red;
+}
+
+.button:active {
+    background-color: green;
+    /* width: 35%; */
+    transform: scale(1.1);
+}
